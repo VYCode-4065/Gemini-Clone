@@ -83,7 +83,9 @@ const Main = () => {
           <div className="text-area">
             <img src={assets.gallery_icon} alt="" />
             <img src={assets.mic_icon} alt="" />
-            <img src={assets.send_icon} onClick={() => onSent()} />
+            {input ? (
+              <img src={assets.send_icon} onClick={() => onSent()} />
+            ) : null}
           </div>
         </div>
 

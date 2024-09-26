@@ -66,7 +66,17 @@
 .sidebar .bottom-item:hover {
   font-weight: 600;
 }
-
+.recent-entry p {
+  animation: fadein 2s 1ms;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 600px) {
   .sidebar {
     display: none;

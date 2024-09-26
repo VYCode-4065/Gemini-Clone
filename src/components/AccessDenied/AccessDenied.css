@@ -1,0 +1,16 @@
+.title h1 {
+  font-weight: 700;
+  padding: 20px 10px;
+  color: red;
+  text-align: center;
+}
+
+.reason h3 {
+  font-weight: 600;
+}
+.greet p {
+  width: fit-content;
+  font-weight: 50;
+  width: 400px;
+  line-height: 1.8rem;
+}

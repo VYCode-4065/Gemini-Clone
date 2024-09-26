@@ -1,0 +1,68 @@
+.sidebar {
+  min-height: 100vh;
+  width: 220px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f0f4f9;
+  padding: 25px;
+}
+.collapse {
+  width: 60px;
+  padding-left: 15px;
+}
+.collapse p {
+  display: none;
+}
+.sidebar img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.sidebar .menu {
+  display: block;
+}
+.sidebar .new-chat {
+  display: inline-flex;
+  align-items: center;
+  margin: 50px 0;
+  gap: 10px;
+  border-radius: 50px;
+  padding: 0px 9px 0px 0px;
+}
+.sidebar .new-chat p {
+  font-size: 1rem;
+}
+.sidebar .new-chat:hover {
+  background-color: rgba(14, 11, 6, 0.167);
+  cursor: pointer;
+}
+.sidebar .recent-title {
+  font-size: 1rem;
+  font-weight: 600;
+  padding-bottom: 9px;
+}
+.sidebar .recent-entry {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.sidebar .recent-entry:hover {
+  background-color: rgba(14, 11, 6, 0.167);
+  cursor: pointer;
+}
+.sidebar .bottom-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  gap: 10px;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.sidebar .bottom-item:hover {
+  font-weight: 600;
+}

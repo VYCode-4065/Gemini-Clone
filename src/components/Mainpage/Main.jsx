@@ -51,7 +51,7 @@ const Main = () => {
           </div>
         </div>
       ) : (
-        <div className="result">
+        <div className="result flex-dev">
           <div className="result-title">
             <img src={assets.user_icon} alt="" />
 

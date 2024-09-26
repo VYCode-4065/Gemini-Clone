@@ -14,11 +14,10 @@ const Sidebar = () => {
   }, []);
 
   useEffect(() => {
-    // Only add prevPrompt if it's not already in the array
-    if (prevPrompt && !recentData.includes(prevPrompt)) {
+    if (prevPrompt && !recentData.some((item) => item === prevPrompt)) {
       setRecentData((prev) => [...prev, prevPrompt]);
     }
-  }, [prevPrompt, recentData]);
+  }, [prevPrompt]); // Remove recentData from dependency array
 
   return (
     <div className={`sidebar ${collapse ? "collapse" : ""}`}>

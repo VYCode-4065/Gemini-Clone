@@ -13,7 +13,7 @@ const App = () => {
   }
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Main />
     </>
   );

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Main from "./components/Mainpage/Main";
 import useScreenWidth from "./components/CustomComponent/ScreenWidth";
 import AccessDenied from "./components/AccessDenied/AccessDenied";
+import Sidebar from "./components/sidebar/sidebar";
 
 const App = () => {
   const screenWidth = useScreenWidth();
@@ -12,7 +13,7 @@ const App = () => {
   }
   return (
     <>
-      {/* <Sidebar /> */}
+      <Sidebar />
       <Main />
     </>
   );

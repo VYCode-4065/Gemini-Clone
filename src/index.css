@@ -7,4 +7,13 @@
 #root {
   min-height: 100vh;
   display: flex;
+  animation: fadein 2s 1ms;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

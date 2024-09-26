@@ -5,7 +5,9 @@ import "./index.css";
 import ContextProvider from "./Context/Context.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <ContextProvider>
-    <App />
-  </ContextProvider>
+  <StrictMode>
+    <ContextProvider>
+      <App />
+    </ContextProvider>
+  </StrictMode>
 );

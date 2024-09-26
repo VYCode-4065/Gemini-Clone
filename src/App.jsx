@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Main from "./components/Mainpage/Main";
 import useScreenWidth from "./components/CustomComponent/ScreenWidth";
 import AccessDenied from "./components/AccessDenied/AccessDenied";
-import Sidebar from "./components/sidebar/sidebar";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 const App = () => {
   const screenWidth = useScreenWidth();

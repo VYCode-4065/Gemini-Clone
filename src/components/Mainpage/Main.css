@@ -79,7 +79,7 @@
   margin-bottom: 30px;
 }
 .input-container input {
-  width: 70%;
+  /* width: 70%; */
   border-style: none;
   font-size: 1rem;
   color: black;

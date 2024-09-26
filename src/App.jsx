@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import Main from "./components/Mainpage/Main";
-import Sidebar from "./components/sidebar/sidebar";
 import useScreenWidth from "./components/CustomComponent/ScreenWidth";
 import AccessDenied from "./components/AccessDenied/AccessDenied";
 

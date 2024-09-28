@@ -82,8 +82,3 @@
     display: none;
   }
 }
-@media (min-width: 1000px) {
-  .flex-dev {
-    height: 75%;
-  }
-}

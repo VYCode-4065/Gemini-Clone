@@ -75,9 +75,6 @@
   position: relative;
 }
 .input-container {
-  /* position: absolute;
-  bottom: -20px; */
-  /* height: 40px; */
   display: flex;
   justify-content: space-between;
   border: 1px solid black;
